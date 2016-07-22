@@ -1,4 +1,4 @@
-# logeek
+# Logeek
 *A log framework for geeks!*
 Logeek adds control and joy to your console log messages. It's a high performance, light weight tool for logging Javascript messages in node or browser. It can be combined with other tools such as Chalk to  extend it's powers even more.
 
@@ -37,6 +37,7 @@ logeek('M').at('S');
 ```
 
 This means that message 'M' will be shown when scope 'S' is visible. Suppose you are working on a copy module and you want to log some message:
+
 ```javascript
 var logeek = require('logeek');
 
@@ -68,6 +69,7 @@ A file was skipped
 
 ## Nested Scopes
 Scopes are powerful ways to group your log message together and disable or enable them at a certain point. Not only you can create different groups, you can also nest these groups to create a relation between them  and control them much easier. 
+
 ```javascript
 logeek.show('sync/db/*');
 logeek('communicating with server').at('sync');
@@ -85,6 +87,7 @@ logeek('server is not available').at('sync/error'); //logs server is not...
 
 ## compact mode
 Writing a long list of log messages can be a boring job. That's why logeek allows you to use an easier way of defining your message and scope at once. logeek uses '@' as the default delimiter for separating the message and the scope. The general format of compact message logging with logeek is:
+
 ```javascript
 logeek.show('db');
 
@@ -100,7 +103,7 @@ logeek('inserting new data @ db/data');
   
 ```
 
-##Chalk Integration
+## Chalk Integration
 Logeek plays well with other standard libraries such as Chalk. Here is an example of using Logeek with Chalk to control the console logs like a pro: 
 
 ```javascript
