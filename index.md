@@ -2,4 +2,4 @@
 layout: default
 ---
 
-{% include markdown-test.md %}
+{% include github-markdown.md %}
