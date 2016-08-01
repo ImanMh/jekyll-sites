@@ -9,8 +9,8 @@
 title: Logeek
 email: iman@jsdecorator.com
 description: > # Logeek is a javascript log framework for node or browser. It’s a high performance and light weight. Easy to combined with other tools such as Chalk.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/logeek" # the subpath of your site, e.g. /blog
+url: "http://imanmh.github.io/logeek/" # the base hostname & protocol for your site
 twitter_username: Iman_Mh
 github_username:  ImanMh
 
